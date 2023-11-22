@@ -108,3 +108,13 @@ font-size: .8rem;
   text-decoration: none;
 }
 
+/* ACTIVE STATES */
+.main__planBox--change:hover{
+  color:var(--BrightBlue) ;
+}
+.main__buttons--proceed:hover{
+  background-color: rgb(114, 67, 223);
+}
+.main__buttons--cancel:hover{
+  color:var(--DarkBlue);
+}
