@@ -15,12 +15,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,700;0,900;1,500&display=swap"
       rel="stylesheet"
     />
 
     <!-- STYLES -->
-<link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css" />
 
     <title>Frontend Mentor | Order summary card</title>
   </head>
@@ -29,6 +29,7 @@
     <main class="main">
       <div class="main__container">
         <img
+          class="main__image"
           src="./images/illustration-hero.svg"
           alt="person listen to music"
         />
@@ -41,10 +42,12 @@
         </p>
 
         <div class="main__planBox">
-          <h5 class="main__planBox--title">Annual Plan</h5>
-          <span class="main__planBox--price">$59.99/year</span>
-
-          <a href="#">Change</a>
+          <img class="main__iconMusic" src="./images/icon-music.svg" alt="icon music" />
+          <div class="main__annualPlan">
+            <h5 class="main__planBox--title">Annual Plan</h5>
+            <span class="main__planBox--price">$59.99/year</span>
+          </div>
+          <a class="main__planBox--change" href="#">Change</a>
         </div>
 
         <div class="main__buttons">
