@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -14,32 +13,36 @@
 
     <title>Frontend Mentor | Order summary card</title>
   </head>
+
   <body>
-    <main>
-      <div class="container">
+    <main class="main">
+      <div class="main__container">
         <img
-          class="mainImg"
+          class="main__img"
           src="./images/illustration-hero.svg"
-          alt="person listen music"
+          alt="person listen to music"
         />
-        <h1 class="mainTitle">Order Summary</h1>
-        <p class="mainParagraph">
+        <h1 class="main__title">Order Summary</h1>
+        <p class="main_paragraph">
           You can now listen to millions of songs, audiobooks, and podcasts on
           any device anywhere you like!
         </p>
 
-        <div class="planBox">
-          <img src="./images/icon-music.svg" alt="music icon">
-          <h5> Annual Plan</h5>
-       <span>$59.99/year </span>
-       <a href="#"> Change</a>
-       </div>
+        <div class="main__plan-box">
+          <img
+            class="main__plan-icon"
+            src="./images/icon-music.svg"
+            alt="music icon"
+          />
+          <h5 class="main__plan-title">Annual Plan</h5>
+          <span class="main__plan-price">$59.99/year</span>
+          <a class="main__plan-change" href="#"> Change</a>
+        </div>
 
-       <div class="buttons">
-        <a href="#">Proceed to Payment </a>
-        <a href="#">Cancel Order</a>
-       </div>
-
+        <div class="main__buttons">
+          <a href="#" class="main__buttons-proceed"> Proceed to Payment</a>
+          <a href="#" class="main__buttons- cancel">Cancel Order</a>
+        </div>
       </div>
     </main>
   </body>
