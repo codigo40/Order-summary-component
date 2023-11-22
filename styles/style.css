@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* PRIMARY COLORS */
+  --PaleBlue: hsl(225, 100%, 94%);
+  --BrightBlue: hsl(245, 75%, 52%);
+
+  /* NEUTRAL COLORS */
+  --VeryPaleBlue: hsl(225, 100%, 98%);
+  --DesaturatedBlue: hsl(224, 23%, 55%);
+  --DarkBlue: hsl(223, 47%, 23%);
+
+  /* FONTS */
+  --fontFamily: 'Red Hat Display', sans-serif;
+  --fontSizeParagraph: 1rem;
+}
