@@ -25,18 +25,24 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--PaleBlue);
+  position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-family: var(--fontFamily);
+
 }
 
 .main__container {
+  display: flex;
+  flex-direction: column;
   background-color: white;
   align-items: center;
   text-align: center;
   margin: 1.5rem;
   border-radius: 1rem;
   padding-bottom: 2rem;
+  max-width: 28rem;
 }
 
 .main__image {
@@ -44,7 +50,7 @@ body {
   border-radius: 1rem 1rem 0 0;
 }
 .main__title {
-  margin-top: 1.6rem;
+  margin-top: 2rem;
   font-size: 1.4rem;
 }
 .main__paragraph{
@@ -55,6 +61,7 @@ body {
    line-height: 1.5rem;
    letter-spacing: 0.1px;
    margin-bottom: 0.7rem;
+   max-width: 25rem;
 }
 
 .main__planBox{
@@ -64,7 +71,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
+  width: 18rem;
 }
 
 .main__iconMusic{
@@ -97,10 +104,9 @@ font-size: .8rem;
   border-radius: .5rem;
   font-weight: 900;
   text-decoration: none;
-  box-shadow: 0 1rem 1.6rem rgb(163, 163, 225);
-
-
+  box-shadow: 0 1rem 1.6rem rgb(163, 163, 225)
 }
+
 .main__buttons--cancel{
   margin-top: 1.8rem;
   color: var(--DesaturatedBlue);
@@ -117,4 +123,47 @@ font-size: .8rem;
 }
 .main__buttons--cancel:hover{
   color:var(--DarkBlue);
+}
+
+@media only screen and (min-width: 768px) {
+
+  body{
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+  
+
+  }
+
+  .main__title {
+    margin-top: 3rem;
+    font-size: 1.8rem;
+}
+
+.main__planBox{
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  width: 23rem;
+}
+
+.main__annualPlan{
+  margin-top: .5rem;
+ margin-left: -4.7rem;
+}
+
+.main__planBox--title{
+font-size: 1rem;
+}
+
+.main__buttons--proceed{
+width: 22rem;
+  margin-bottom: 2rem;
+}
+
+.main__buttons--cancel{
+  margin-top: .5rem;
+  font-weight: 700;
+
+}
+
 }
