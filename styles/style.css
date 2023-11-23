@@ -54,7 +54,7 @@ body {
   font-size: 1.4rem;
 }
 .main__paragraph{
-   font-weight:500;
+   font-weight:700;
    color: var(--DesaturatedBlue);
    font-size: var(--fontSizeParagraph);
    padding: 1rem 2rem;
